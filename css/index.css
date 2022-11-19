@@ -1,0 +1,33 @@
+.card-main{
+  border: none;
+  border-radius: 0%;
+}
+.card-main-overlay{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: center;
+}
+
+.card-container-child{
+  min-width: 30vw;
+  width: 100%;
+  max-width: 90vw;
+}
+
+@media screen and (max-width: 800px) {
+  .card-container{
+    flex-wrap: wrap;
+  }
+  .card-container-child{
+    max-width: 80vw;
+  }
+}

@@ -1,0 +1,21 @@
+.card{
+  max-width: 80vw;
+}
+
+main{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px 0px 20px 0px;
+}
+
+.card img{
+  width: 100%;
+}
+
+textarea{
+  resize: none;
+  width: fit-content;
+  height: fit-content;
+}
